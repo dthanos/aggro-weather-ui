@@ -1,0 +1,114 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif !important;
+  line-height: 1.5 !important;
+  font-weight: 400 !important;
+
+  color-scheme: light dark !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+  background-color: #242424 !important;
+
+  font-synthesis: none !important;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0 !important;
+  display: flex !important;
+  place-items: center !important;
+  min-width: 320px !important;
+  /*min-height: 100vh;*/
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  /*max-width: 1280px;*/
+  /*margin: 0 auto;*/
+  width: 100% !important;
+  height: 100% !important;
+  padding: 2rem !important;
+  text-align: center !important;
+  overflow: auto !important;
+  /*background-color: #242424 !important;*/
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif !important;
+  line-height: 1.5 !important;
+  font-weight: 400 !important;
+
+  color-scheme: light dark !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+  background-color: #242424 !important;
+
+  font-synthesis: none !important;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+.app-btn {
+  border-radius: 8px !important;
+  border: 1px solid transparent !important;
+  padding: 0.8em 1.6em !important;
+  font-size: 1.2em !important;
+  font-weight: 500 !important;
+  font-family: inherit !important;
+  background-color: #1a1a1a !important;
+  cursor: pointer !important;
+  transition: border-color 0.25s !important;
+}
+
+.modal-btn {
+  border-radius: 8px !important;
+  border: 1px solid transparent !important;
+  padding: 0.5em 1em !important;
+  font-size: 1em !important;
+  font-weight: 500 !important;
+  font-family: inherit !important;
+  background-color: #1a1a1a !important;
+  cursor: pointer !important;
+  transition: border-color 0.25s !important;
+}
+.success-color {
+  color: green !important;
+}
+.error-color {
+  color: #ff0000 !important;
+}
+.app-btn:hover {
+  border-color: #646cff !important;
+}
+.app-btn:focus,
+.app-btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color !important;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547 !important;
+    background-color: #ffffff !important;
+  }
+  a:hover {
+    color: #747bff !important;
+  }
+  button {
+    background-color: #f9f9f9 !important;
+  }
+}
